@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.authors = "libjson-rpc-cpp Authors"
   spec.license = { type: "MIT", file: "LICENSE.txt" }
 
-  spec.version = "0.6.0.0"
+  spec.version = "0.6.0.1"
 
   spec.dependency 'JsonCpp', '~> 1.7'
   spec.dependency 'curl', '~> 7.49'
@@ -21,6 +21,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = "src/jsonrpccpp/**/*.{h,cpp}"
   spec.header_mappings_dir = "src/jsonrpccpp"
+  spec.header_dir = 'jsonrpccpp'
   spec.libraries = "c++"
 
   spec.prepare_command = <<-CMD
