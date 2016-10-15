@@ -5,10 +5,10 @@ Pod::Spec.new do |spec|
   spec.authors = "libjson-rpc-cpp Authors"
   spec.license = { type: "MIT", file: "LICENSE.txt" }
 
-  spec.version = "0.6.0.1"
+  spec.version = "0.6.0.2"
 
   spec.dependency 'JsonCpp', '~> 1.7'
-  spec.dependency 'curl', '~> 7.49'
+  spec.dependency 'libcurl-ios', '~> 7.50'
   spec.dependency 'libmicrohttpd-iOS', '~> 0.9'
 
   spec.source = {
